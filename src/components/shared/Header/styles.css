@@ -1,0 +1,30 @@
+.top-header {
+  display: grid;
+  grid-template-areas: "left center right";
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 1.5625rem 1.25rem;
+  gap: 1.25rem;
+  position: relative;
+}
+
+.top-header > *:nth-child(2) {
+  grid-area: center;
+  justify-self: center;
+}
+
+.top-header > *:last-child {
+  grid-area: right;
+  justify-self: end;
+}
+
+@media (max-width: 1024px) {
+  .top-header {
+    width: 100%;
+    padding: 2rem 1.25rem 2.375rem 1.25rem;
+  }
+  .top-header > *:first-child {
+    grid-area: left;
+    justify-self: left;
+  }
+}

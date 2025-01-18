@@ -1,0 +1,17 @@
+.section-wrapper {
+  width: 100%;
+}
+
+.section-wrapper--border {
+  border: 0.0625rem solid var(--color-section-border);
+  border-width: 0.0625rem 0;
+}
+
+.section-wrapper__container {
+  max-width: 72.0625rem;
+  width: 100%;
+  margin: 0 auto;
+  overflow: visible;
+  height: auto;
+  padding: 0 1.25rem;
+}
