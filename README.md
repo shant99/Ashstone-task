@@ -1,13 +1,17 @@
+## About Task
+
+![Task image](./src/assets/task.png)
+
 ## Usage
 
 ```bash
-pip install foobar
+npm run dev
 ```
 
 ## App work on PORT - 5173
 
 [http://localhost:5173/](http://localhost:5173/)
 
-## About Task
+## App work on vercel
 
-![Task image](./src/assets/task.png)
+[https://ashstone-task.vercel.app/](https://ashstone-task.vercel.app/)
