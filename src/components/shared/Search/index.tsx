@@ -5,7 +5,7 @@ import messages from "../../../messages";
 import React, { useState } from "react";
 import "./styles.css";
 
-const Search: React.FC<HeaderProps> = ({ searchQuery, setSearchQuery }) => {
+const Search: React.FC<HeaderProps> = ({ setSearchQuery }) => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [value, setValue] = useState("");
 

@@ -8,13 +8,13 @@ import Menu from "../Menu";
 import React from "react";
 import "./styles.css";
 
-const Header: React.FC<HeaderProps> = ({ searchQuery, setSearchQuery }) => {
+const Header: React.FC<HeaderProps> = ({ setSearchQuery }) => {
   return (
     <>
       <SectionWrapper className="top-header">
         <MobileMenu items={menuItems} />
         <Logotype />
-        <Search searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+        <Search setSearchQuery={setSearchQuery} />
       </SectionWrapper>
       <Menu items={menuItems} />
     </>

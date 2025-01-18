@@ -32,7 +32,6 @@ export interface Post {
 }
 
 export type HeaderProps = {
-  searchQuery: string;
   setSearchQuery: React.Dispatch<React.SetStateAction<string>>;
 };
 

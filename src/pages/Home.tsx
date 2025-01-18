@@ -24,7 +24,7 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <Header searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+      <Header setSearchQuery={setSearchQuery} />
       <PostList posts={filteredPosts} />
     </>
   );

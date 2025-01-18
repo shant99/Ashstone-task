@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Post } from "../types/post.types";
+import { Post } from "../types/index.types";
 
 const API_URL = "https://cloud.codesupply.co/endpoint/react/data.json";
 
