@@ -10,4 +10,4 @@ pip install foobar
 
 ## About Task
 
-![Task image](./assets/task.png)
+![Task image](./src/assets/task.png)
