@@ -2,37 +2,37 @@ export const menuItems = [
   {
     label: "Demos",
     subItems: [
-      { label: "Demos Header", link: "/post-header" },
-      { label: "Demos Layout", link: "/post-layout" },
+      { label: "Demos Header", link: "/" },
+      { label: "Demos Layout", link: "/" },
     ],
   },
   {
     label: "Post",
     subItems: [
-      { label: "Post Header", link: "/post-header" },
-      { label: "Post Layout", link: "/post-layout" },
+      { label: "Post Header", link: "/" },
+      { label: "Post Layout", link: "/" },
     ],
   },
   {
     label: "Features",
     subItems: [
-      { label: "Features Header", link: "/post-header" },
-      { label: "Features Layout", link: "/post-layout" },
+      { label: "Features Header", link: "/" },
+      { label: "Features Layout", link: "/" },
     ],
   },
   {
     label: "Categories",
     subItems: [
-      { label: "Categories Header", link: "/post-header" },
-      { label: "Categories Layout", link: "/post-layout" },
+      { label: "Categories Header", link: "/" },
+      { label: "Categories Layout", link: "/" },
     ],
   },
   {
     label: "Shop",
     subItems: [
-      { label: "Shop Header", link: "/post-header" },
-      { label: "Shop Layout", link: "/post-layout" },
+      { label: "Shop Header", link: "/" },
+      { label: "Shop Layout", link: "/" },
     ],
   },
-  { label: "Buy Now", link: "/buy-now" },
+  { label: "Buy Now", link: "/" },
 ];
